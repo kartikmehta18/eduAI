@@ -549,7 +549,7 @@ export default function MentorList({ careerPath }: { careerPath: string }) {
             method: "wallet_switchEthereumChain",
             params: [{ chainId: EDUCHAIN_CHAIN_ID }],
           });
-        } catch (switchError: MetaMaskError) {
+        } catch (switchError: any) {
           if (switchError.code === 4902) {
             await window.ethereum.request({
               method: "wallet_addEthereumChain",
