@@ -1,0 +1,17 @@
+.btn-danger {
+    background-color: rgb(9, 228, 57);
+}
+
+.btn-danger:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.col {
+    background-color: black;
+    border: 2px solid rgb(9, 228, 57);
+    color: aliceblue;
+}

@@ -1,0 +1,94 @@
+        /* body,
+    html,
+    h1 {
+        width: 100%;
+        height: 100%;
+        font-family: 'Aclonica';
+        font-size: 22px;
+        background-image: url(startupproject.jpg);
+        background-size: cover;
+        width: 100%;
+        /* height: 100%; */
+        /* } */
+        /* .container {
+        display: grid;
+        grid-gap: 20;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-rows: 1fr;
+    } */
+        
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            font-family: 'Aclonica';
+            font-size: 22px;
+            background: url(network.jpeg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            /* display: grid;
+            grid-gap: 20;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-rows: 1fr; */
+            /* this is for web size
+        */
+        }
+        
+        h1 {
+            font-size: 3rem;
+            color: rgb(49, 163, 73);
+            font-family: 'Aclonica';
+            font-size: px;
+        }
+        
+        .btn-xl {
+            padding: 1rem 2rem;
+        }
+        
+        .btn {
+            font-weight: 700;
+            border-radius: 300px;
+            text-transform: uppercase;
+        }
+        /* .btn-primary {
+    background-color: blue;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: orange;
+} */
+        
+        .color {
+            color: azure;
+            font-weight: 700;
+            border-radius: 300px;
+            background-color: rgb(4, 4, 0);
+        }
+        
+        .color:hover {
+            background-color: rgb(49, 163, 73);
+            border: 4px;
+        }
+        
+        hr {
+            border-color: rgb(0, 0, 0);
+            border-width: 3px;
+            max-width: 65px;
+        }
+        
+        .buffer {
+            height: 230px;
+        }
+        
+        h2 {
+            text-decoration: underline green;
+        }
+        
+        @media screen and (max-width: 468px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
