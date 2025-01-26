@@ -135,7 +135,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <Brain className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">CareerLearn AI</h1>
+              <h1 className="text-2xl font-bold text-gray-900">eduCareer AI</h1>
             </div>
             <WalletButton />
           </div>
