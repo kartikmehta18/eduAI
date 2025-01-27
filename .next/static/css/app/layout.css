@@ -1059,9 +1059,6 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
-.mr-40 {
-  margin-right: 10rem;
-}
 .block {
   display: block;
 }
@@ -1136,20 +1133,11 @@ video {
 .w-8 {
   width: 2rem;
 }
-.w-full {
-  width: 100%;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[600pc\] {
-  width: 600pc;
-}
-.w-\[600p\] {
-  width: 600p;
-}
 .w-\[600px\] {
   width: 600px;
+}
+.w-full {
+  width: 100%;
 }
 .min-w-\[100px\] {
   min-width: 100px;
